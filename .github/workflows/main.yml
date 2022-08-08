@@ -36,4 +36,4 @@ jobs:
           push: true
           tags: |
             aron1525/kube-news:latest
-            aron1525/kube-news:${{guthub.run_number}}
+            aron1525/kube-news:${{github.run_number}}
